@@ -2,7 +2,7 @@
 
 <p><center><img  src="https://i.ibb.co/NYwd9NW/abae483018e14fffb9821c737eef9f62.png"></p>
 
-## "Your Market" is an E-commerce web application built with the Flask micro framework.
+##  “Your Market” is an E-commerce web application built with the Flask micro framework.
 
 This application is a part of my learning journey for web developpement field
 
