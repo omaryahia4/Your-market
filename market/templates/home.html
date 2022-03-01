@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}
+  Welcome to Your Market
+{% endblock %}
+{% block content %}
+  <div class="position-relative overflow-hidden pt-5  p-md-5 m-md-3 border border-warning bg-dark" style="display: flex; align-items: center; justify-content: space-between;">
+     <div class="container-one col-md-5 p-lg-5  my-5 rounded">
+        <h1 class="display-5 font-weight-normal">Online</h1>
+        <h1 class="display-5 font-weight-normal text-warning">Shopping</h1>
+        <p class="lead font-weight-normal">Start purchasing products by clicking the link below</p>
+        <a class="btn btn-primary" href="{{ url_for('market_page') }}">Get Started</a>
+      </div>
+      <div class="col-md-6">
+        <img class="mb-4" src="https://static.vecteezy.com/system/resources/thumbnails/001/263/897/small_2x/online-shopping-and-digital-marketing-concept.jpg" alt="your-market" style="width: auto; height: auto; border-radius: 16px;">
+      </div>
+  </div>
+  <style>
+    .btn-primary {
+      background-color: #000029;
+      border-color: #000029;
+    }
+    .m-md-3 {
+      margin: 6rem !important;
+    }
+    .bg-dark {
+      background-color: rgb(50, 64, 77);
+    }
+    .border-warning {
+      border-color: #d8b000 !important;
+      border-width: 3px !important;
+    }
+    .btn {
+      padding: 0.500rem 2.75rem;
+    }
+ </style>
+{% endblock %}

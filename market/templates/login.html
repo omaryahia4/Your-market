@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}
+    Login Page
+{% endblock %}
+
+{% block content %}
+<body class="text-center">
+    <div class="container pt-5">
+        <form method="POST" class="form-signin p-5" style="color: white;">
+            {{ form.hidden_tag() }}
+            <img class="mb-4" src="https://i.ibb.co/NYwd9NW/abae483018e14fffb9821c737eef9f62.png" alt="your-market" style="width: 150px; height: 150px; border-radius: 16px;">
+            <h1 class="h3 mb-3 font-weight-bold">
+                Please Login
+            </h1>
+            <br>
+            {{ form.username.label() }}
+            {{ form.username(class='form-control', placeholder='Username') }}
+            <br>
+            {{ form.password.label() }}
+            {{ form.password(class='form-control', placeholder='Password') }}
+            <br>
+            <div class="checkbox mb-3">
+                <h6>Do not have an account?</h6>
+                <a class="btn btn-sm btn-secondary" href="{{ url_for('register_form') }}">Register</a>
+            </div>
+            {{ form.submit(class='btn btn-lg btn-block btn-primary') }}
+        </form> 
+    </div>
+</body>
+<style>
+    .btn-primary {
+      background-color: #000029;
+      border-color: #000029;
+      font-weight: bold;
+    }
+    .btn-secondary {
+        padding: 0.500rem 2.75rem;
+        font-size: 16px;
+    }
+</style>
+{% endblock %}
