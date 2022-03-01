@@ -58,7 +58,7 @@ Flask is a micro web framework written in Python that speeds up application deve
 
 - User Authentication
 
-- Logout and Customizations
+- Flask-Login
 
 ### Technologies :
 
