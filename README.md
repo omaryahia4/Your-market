@@ -72,4 +72,4 @@ For this project i used
 
 - SQlite for database management
 
-- Bootstrap front-end framework
+- Bootstrap v4.5 front-end framework
