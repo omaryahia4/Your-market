@@ -1,6 +1,6 @@
 # Your Market
 
-<p><center><img  src="https://i.ibb.co/NYwd9NW/abae483018e14fffb9821c737eef9f62.png"></p>
+<p><center><img  src="https://i.ibb.co/NYwd9NW/abae483018e14fffb9821c737eef9f62.png"></center></p>
 
 ##  “Your Market” is an E-commerce web application built with the Flask micro framework.
 
@@ -28,7 +28,7 @@ Flask is a micro web framework written in Python that speeds up application deve
 
 - Buy items by adding them to your list
 
-<center><img src="https://i.ibb.co/wrPDsHB/marketpage2.png" >
+<center><img src="https://i.ibb.co/wrPDsHB/marketpage2.png" ></center>
 
 - Sell back items
 
