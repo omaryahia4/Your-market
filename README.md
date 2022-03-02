@@ -14,20 +14,25 @@ This application is a part of my learning journey for web development field
 
 Flask is a micro web framework written in Python that speeds up application development by providing essential back end components for programmers to build upon. Flask is simple and lightweight—one of the most manageable frameworks around—and contains only the vital necessities for web development. It is, however, also designed to be highly extensible so developers can customize it however they see fit.
 ### Instructions :
-
 Step 1:
+-   Clone this repository on your to your local machine :
+```
+git clone https://github.com/omaryahia4/Your-market
+```
+
+Step 2:
 -   Install Flask
 ```
 pip install Flask
 ```
 
-Step 2:
+Step 3:
 -   Set the FLASK_APP environment variable :
 ```
 set FLASK_APP=market
 ```
 
-Step 3:
+Step 4:
 ```
 python3 run.py
 ```
