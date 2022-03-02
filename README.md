@@ -2,7 +2,7 @@
 
 <p><center><img  src="https://i.ibb.co/NYwd9NW/abae483018e14fffb9821c737eef9f62.png"></p>
 
-##  “Your Market” is an E-commerce web application built with the Flask micro framework.
+##  “Your Market” is an E-commerce web application built with Flask micro framework.
 
 This application is a part of my learning journey for web development field
 
@@ -13,6 +13,25 @@ This application is a part of my learning journey for web development field
   
 
 Flask is a micro web framework written in Python that speeds up application development by providing essential back end components for programmers to build upon. Flask is simple and lightweight—one of the most manageable frameworks around—and contains only the vital necessities for web development. It is, however, also designed to be highly extensible so developers can customize it however they see fit.
+### Instruction :
+
+Step 1:
+-   Install Flask
+```
+pip install Flask
+```
+
+Step 2:
+-   Set the FLASK_APP environment variable :
+```
+set FLASK_APP=market
+```
+
+Step 3:
+```
+python3 run.py
+```
+Open the url that is displayed on your terminal (http://127.0.0.1:5000/) and your are ready to browse the application.
 
 ### Usage :
 <center><img src="https://i.ibb.co/Kqpjmq8/frontpage.png">
@@ -58,7 +77,7 @@ Flask is a micro web framework written in Python that speeds up application deve
 
 - User Authentication
 
-- Logout and Customizations
+- Flask Logout
 
 ### Technologies :
 
@@ -72,4 +91,4 @@ For this project i used
 
 - SQlite for database management
 
-- Bootstrap front-end framework
+- Bootstrap 4.5v front-end framework
