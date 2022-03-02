@@ -70,11 +70,17 @@ Open the url that is displayed on your terminal (http://127.0.0.1:5000/) and you
 
 - Models and Databases
 
+- SQLAlchemy
+
+- Bcrypt
+
 - Project Restructure
 
 - Model Relationships
 
 - Flask Forms
+
+- Flask Login
 
 - Flask Advanced Validations
 
@@ -82,7 +88,6 @@ Open the url that is displayed on your terminal (http://127.0.0.1:5000/) and you
 
 - User Authentication
 
-- Flask Logout
 
 ### Technologies :
 
